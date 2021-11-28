@@ -284,10 +284,10 @@
          display: none;
      }
      .fa-bell{
-         display: none;
+        color: #0076ef;
      }
      .fa-microphone{
-         display: none;
+        color: white;
      }
      .backgnd{
          display: none;
