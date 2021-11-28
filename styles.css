@@ -1,0 +1,494 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    width: 100%;
+    height: 90px;
+    background-color: #0076ef;
+    padding: 10px;
+    position: sticky;
+    top: 0px;
+}
+.fa-bars{
+    color:white;
+    font-size: 17px;
+    padding: 10px 5px 10px 0px;
+}
+.logo{
+    width: 120px;
+    height: 35px;
+    background-image: url(images/flipkart\ logo.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 12px;
+    left: 30px;
+  }
+  input{
+    width: 96%;
+    height: 35px;
+    position: absolute;
+    top: 50px;
+    left: 5px;
+    border: 1px solid #0076ef;
+    border-radius: 2px;
+    padding: 5px 10px 5px 20px;
+}
+::-webkit-input-placeholder{
+    font-size: 10px;
+    color: rgb(53, 51, 51);
+}
+.b1{
+    display: none;
+}
+.s2{
+    display: none;
+}
+.s1{
+    display: none;
+}
+.fa-bell{
+    color: white;
+    position: absolute;
+    top: 20px;
+    right: 35px;
+}
+.fa-shopping-cart{
+  color: white;  
+  position: absolute;
+  top: 20px;
+  right: 10px;
+}
+.fa-search{
+    color: rgb(112, 110, 110);
+    position: absolute;
+    font-size: 13px;
+    top: 63px;
+    left: 10px;
+}
+.fa-microphone{
+    color:#0076ef;
+    font-size: 13px;
+    position: absolute;
+    top: 63px;
+    right: 15px;
+}
+.backgnd{
+    width: 25px;
+    height: 34px;
+    background-color: #5fa7ee;
+    opacity: 0.5;
+    position: absolute;
+    top: 50px;
+    right: 8px;
+}
+.imgs1{
+    padding: 5px;
+    width:100%;
+    height: 20px; 
+}
+.categories{
+    background-color: white;
+    position: sticky;
+    top: 90px;
+}
+.i1{
+    width: 30px;
+    height: auto;
+}
+.captions{
+    padding: 10px 0px 0px 5px ; 
+}
+.c1{
+    font-size: 7px;
+}
+.c2{
+    font-size: 7px;
+    padding-left: 2px;
+}
+.c3{
+    font-size: 7px;
+    padding-left: 5px;
+}
+.c4{
+    font-size: 7px;
+    padding-left: 5px;
+}
+.c5{
+    font-size: 7px;
+    padding-left: 4px;
+}
+.c6{
+    font-size: 7px;
+    padding-left: 5px;
+}
+.c7{
+    font-size: 7px;
+    padding-left: 3px;
+}
+.c8{
+    font-size: 7px;
+    padding-left: 3px;
+}
+.c9{
+    font-size: 7px;
+    padding-left: 2px;
+}
+.slideshow{
+    width: 100%;
+}
+.bx1{
+    width: 100vw;
+    background-color:#0076ef;
+}
+.t1{
+    font-size: 1rem;
+    padding-left: 10px;
+    color: white;
+    padding-top: 30px;
+}
+.btn-1{
+    width: 80px;
+    color:#0076ef;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 2px;
+    margin-left: 90px;
+    margin-top: 10px;
+}
+.dofimg1{
+    padding: 10px 0px 10px 30px ;
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+}
+.box3{
+    width: 100vw;
+    height: 250px;
+    padding: 10px;
+}
+.imgbox3-1{
+    float: left;
+}
+.imgbox3-2{
+    float: right;
+}
+.capb3-1{
+    color: black;
+    font-size: 14px;
+}
+.capb3-2{
+    color: grey;
+    font-size: 10px;
+}
+.capb3-3{
+    color: green;
+    font-size: 15px;
+}
+.box4{
+    border: 0.5px solid rgb(207, 204, 204);
+    padding: 10px;
+}
+.t2{
+    font-size: 1rem;
+    padding-left: 10px; 
+}
+.btn-2{
+    width: 80px;
+    color:white;
+    background-color: #0076ef;
+    border: 1px solid #0076ef;
+    border-radius: 2px;
+    margin-left: 50px;
+}
+.box5{
+    border: 0.5px solid rgb(218, 216, 216);
+    padding: 10px;
+}
+.box6-1{
+    float: left;
+}
+.box6-2{
+    float: right;
+}
+.sp1{
+    padding: 10px;
+    font-size: 15px;
+    margin-top: 5px;
+}
+.sp2{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.box9{
+    width: 100vw;
+    background-color:lavender;
+    padding: 10px;
+}
+.box9-1{
+    float: left;
+}
+.box9-2{
+    float: right;
+}
+.box9-3{
+    clear: both;
+}
+.box11{
+    margin-top: 10px;
+    padding: 10px;
+    height: 230px;
+    background-color: powderblue;
+}
+.box11-1{
+    float: left;
+    margin-right: 5px;
+}
+.box11-2{
+    float: right;
+}
+.box13{
+    height: 250px;
+}
+.box13-1{
+    float: left;
+    padding: 5px;
+}
+.box13-2{
+    float: right;
+    padding-top: 5px;
+}
+.capb3-11{
+    font-size: 12px;
+}
+.footer{
+    clear: both;
+    width: 100vw;
+    height: 40px;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
+.desktop-wrapper{
+    display: none;
+}
+ @media screen and (min-width:1000px){
+    .desktop-wrapper{
+        display: inline;
+    }
+     .fa-bars{
+         display: none;
+     }
+     .fa-bell{
+         display: none;
+     }
+     .fa-microphone{
+         display: none;
+     }
+     .backgnd{
+         display: none;
+     }
+    .header{
+        width: 100%;
+        height: 50px;
+        background-color: #0076ef;
+        padding: 5px  100px 7px 170px;
+        position: sticky;
+        top: 0px;
+    }
+    .logo{
+      width: 200px;
+      height: 40px;
+      background-image: url(images/flipkart\ logo.jpg);
+      background-position: left;
+      background-repeat: no-repeat;
+      background-size: contain;
+      padding: 0px;
+      position: absolute;
+      top: 8px;
+      left: 170px;
+    }
+    input{
+        width: 505px;
+        height: 35px;
+        position: absolute;
+        top: 7px;
+        left: 250px;
+        border: 1px solid #0076ef;
+        border-radius: 2px;
+        padding: 5px 10px 5px 15px;
+    }
+    ::-webkit-input-placeholder{
+        font-size: 12px;
+        color: rgb(53, 51, 51);
+    }
+    .fa-search{
+        color:#0076ef;
+        position: absolute;
+        top: 16px;
+        left: 727px;
+    }
+    .b1{
+        display: block;
+        width: 120px;
+        height: 26px;
+        background-color: white;
+        color: #0076ef;
+        font-size: 14px;
+        font-weight: bold;
+        border: 1px solid white;
+        position: absolute;
+        top: 13px;
+        left: 930px;
+    }
+    .s1{
+        position: absolute;
+        top: 17px;
+        right: 230px;
+        color: white;
+        font-size: 13px;
+        font-weight: bold;
+        display: block;
+    }
+    .fa-shopping-cart{
+        color: white;
+        font-size: 15px;
+        position: absolute;
+        top: 17px;
+        right: 180px;
+    }
+    .s2{
+        position: absolute;
+        top: 17px;
+        right: 150px;
+        color: white;
+        font-size: 13px;
+        font-weight: bold;  
+        display: block;
+    }
+    .imgs1{
+        width:100vw;
+        height: 130px; 
+        background-color: white;
+        padding-left: 200px;
+    }
+    .categories{
+        background-color: white;
+        position: static;
+        top: 50px;
+    }
+    .i1{
+        width: 100px;
+        height: 100px;
+        padding: 20px;
+        background-color: white;
+    }
+    .captions{
+        padding: 0px 80px 0px 120px ; 
+    }
+    .c1{
+        position: absolute;
+        top: 150px;
+        left: 220px;
+        font-size: 1rem;
+    }
+    .c2{
+        position: absolute;
+        top: 150px;
+        left: 325px;
+        font-size: 1rem;
+    }
+    .c3{
+        position: absolute;
+        top: 150px;
+        left: 430px;
+        font-size: 1rem;
+    }
+    .c4{
+        position: absolute;
+        top: 150px;
+        left: 526px;
+        font-size: 1rem;
+    }
+    .c5{
+        position: absolute;
+        top: 150px;       ;
+        left: 630px;
+        font-size: 1rem;
+    }
+    .c6{
+        position: absolute;
+        top: 150px;
+        left: 750px;
+        font-size: 1rem;
+    }
+    .c7{
+        position: absolute;
+        top: 150px;
+        left: 840px;
+        font-size: 1rem;
+    }
+    .c8{
+        position: absolute;
+        top: 150px;
+        right: 350px;
+        font-size: 1rem;
+    }
+    .c9{
+        position: absolute;
+        top: 150px;
+        right: 220px;
+        font-size: 1rem;
+    }  
+    .mobile-img{
+        display: none;
+    }
+    .slideshow{
+        display: none;
+    }
+    .heading{
+        padding-left: 50px;
+        font-size: 1.2rem;
+    }
+    .dbox1{
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        width: 100vw;
+        padding: 20px;
+        padding-top: 30px;
+        margin-top: 10px;
+        border: 0.2px solid gainsboro;
+        margin-bottom: 10px;
+    }
+    .cap1{
+        font-size: 14px;
+    }
+    .cap2{
+        font-size: 12px;
+        color: green;
+    }
+    .cap3{
+        font-size: 13px;
+        color: grey;
+    }
+    .dbtn{
+        color: white;
+        background-color: #0076ef;
+        border: 1px solid #0076ef;
+        padding: 5px;
+        float: right;
+    }
+} 
+
+
+
+
+
+
+
+
